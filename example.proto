@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+package example;
+
+service Transactions{
+
+	rpc MsgDelivery (send_request) returns (get_response) {}
+
+}
+
+message send_request {
+
+	int32 id = 1;
+	string type = 2;
+	int32 event_id = 3;
+	string event_interface = 4;
+	int32 event_money = 5;
+	int32 balance = 400;
+}
+
+
+message get_response{
+
+	int32 id = 1;
+	int32 balance = 1200;
+	string message = 3;
+}

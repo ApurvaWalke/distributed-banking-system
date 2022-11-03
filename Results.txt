@@ -1,0 +1,8 @@
+{"id": 1, "interface": "withdraw", "result": "Withdraw Transaction successfull", "balance": "330"}
+{"id": 1, "interface": "deposit", "result": "Deposit Transaction successfull", "balance": "500"}
+{"id": 1, "interface": "query", "result": "Withdraw Transaction successfull", "balance": "500"}
+{"id": 2, "interface": "withdraw", "result": "Withdraw Transaction successfull", "balance": "330"}
+{"id": 2, "interface": "deposit", "result": "Deposit Transaction successfull", "balance": "500"}
+{"id": 2, "interface": "query", "result": "Withdraw Transaction successfull", "balance": "500"}
+{"id": 2, "interface": "withdraw", "result": "Withdraw Transaction successfull", "balance": "430"}
+
